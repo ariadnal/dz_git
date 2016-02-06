@@ -1,0 +1,40 @@
+html{
+	max-width:1368px;
+	background: rgb(238,238,238);
+
+	
+}
+.wrapper{
+	margin:5px auto;
+	width:514px;
+	height:880px;
+	background:white;
+	 box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	 padding-top: 50px;
+	 padding-left: 70px;
+	 padding-right: 70px; 
+	 font-size: 1.2em;
+}
+header, footer{
+	
+	background: white;
+
+}
+header h1{
+	text-align:center;
+	font-size: 1.5em
+
+}
+header img{
+	display:block;
+	margin:0 auto;
+}
+
+.reason{
+	border-top: 1px solid rgba(0,0,0,0.5);
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.contacts{
+	
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
