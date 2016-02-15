@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+html{
+
+	background: url('../img/background.png') repeat-x rgb(12, 117, 161);
+  max-height:1060px;
+/*  max-width: 1280px;*/
+  min-width: 1000px;
+}
+
+
+body{
+
+  margin:0 auto;
+  width:1000px;
+
+}
+
+.wrapper{
+	margin:0 auto;
+background-color: rgb(52,52,52);
+	width:1000px;
+  min-height: 700px;
+
+	 box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+	font-family:"MS Sans Serif", Geneva, sans-serif;
+	 font-size: 1em;
+}
+
+.header1{
+  height: 175px;
+  background: #fff;
+  position: relative;
+}
+.clear{
+  clear: both;
+}
+
+.header1 img{
+  display: block;
+  float:left;
+}
+.header1 p{
+  float:right;
+  display: block;
+  font-family:Tahoma;
+  font-size: 12px;
+  color:rgb(95, 165, 187);
+  margin:10px 30px 35px 0;
+
+}
+
+.countries{
+  position: absolute;
+  bottom:10px;
+  right:30px;
+  float:right;
+  margin-left: 0px;
+padding-left: 0px;
+list-style: none;
+}
+
+.countries li{
+  display: inline-block;
+  margin-right: -5px;
+}
+.countries figcaption{
+  text-align: center;
+}
+.countries a{
+
+  font-family:Tahoma;
+  font-size: 10px;
+  color:rgb(95, 165, 187);
+}
+.countries figure{
+  width:61px;
+  height:61px;
+}
+.countries figure img{
+  display: block;
+  margin-left: 9px;
+
+}
+.header2{
+  height:235px;
+  border-top:1px solid rgb(19, 138, 167);
+  border-bottom:1px solid rgb(19,138,167);
+}
+
+footer{
+	clear: both;
+  width:100%;
+}
+footer p{
+  text-align: center;
+  font-family:Tahoma;
+  font-size: 12px;
+  color:rgb(222,231,238);
+  margin: 0 auto;
+  line-height: 35px;
+}
+
+
+
+
+.menu ul {
+list-style: none;
+background-color: rgb(52,52,52);
+
+}
+.menu ul li {
+float: left; /* элементы списка делаем блочными и выстраиваем в ряд */
+height: 30px; /* высоту лучше жестко указать, чтобы выпадающее меню появлялось в предсказуемом месте */
+/*margin-right: 20px;*/
+cursor: pointer;
+position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя */
+z-index: 1;
+background: #99CCCC;
+/*padding: 0 5px;*/
+}
+.menu ul li ul {
+display: none; /* скрываем выпадающе меню */
+position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
+left: 0;
+top: 30px; /* высоту лучше не делать большей высоты пункта меню первого уровня, иначе попасть на подменю будет проблематично */
+margin: 0;
+width: 140px;
+background: #fff;
+border: 1px solid #000;
+}
+.menu ul li ul li {
+float: none;
+display: block;
+background: none;
+border-bottom: 1px solid #CCC;
+}
+.menu ul li:hover ul {
+display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
+box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+
+
+ul#nav{
+	margin-left: 0px;
+padding-left: 3px;
+list-style: none;
+width: 100%;
+background-color: rgb(52,52,52);
+
+}
+
+#nav li {
+	display: inline;
+	margin-right: 0px;
+}
+
+
+#nav a{
+	display: inline-block;
+border-left: 1px solid rgb(52,52,52);
+border-right: 1px solid rgb(52,52,52);
+font-size: 12px;
+padding: 0;
+background-color: rgb(52,52,52);
+text-decoration: none;
+color: #fff;
+height:30px;
+width:140px;
+line-height: 30px;
+text-align: center;
+box-shadow: 0 2px 0px rgba(0,0,0,0.5);
+border-bottom: 1px solid #000;
+}
+#nav a:hover{
+	border-left: 1px solid rgb(131,131,131);
+	border-right: 1px solid rgb(131,131,131);
+	background-color: rgb(60,60,60);
+}
+
+
+
+.triangle{
+	font-size: 9px;
+}
+
+
+
+.contentWrapper {
+
+height: 545px;
+background-color:green;
+padding-bottom:10px;
+color:rgb(66, 71, 67);
+}
+.contentWrapper h1,h2,h3{
+	text-align: center;
+}
+.sidebar1 {
+  float: left;
+  width: 16.8%;
+  padding: 10px 20px 0 20px;
+	  border-right: solid 1px rgb(199,202,207);
+		background-color:rgb(237, 238, 240);
+		height:100%;
+}
+.main {
+  float: left;
+  width: 54%;
+  padding: 10px 20px 0 20px;
+	height:100%;
+background-color:#fff;
+
+}
+.sidebar2 {
+	border-left: solid 1px rgb(199,202,207);
+	background-color:rgb(237, 238, 240);
+  float: right;
+  width: 17%;
+  padding: 10px 20px 0 20px;
+	height:100%;
+
+}
