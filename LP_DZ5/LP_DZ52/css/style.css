@@ -212,3 +212,8 @@ form input[type="submit"]{
   margin: 0 auto;
   margin-top: 12px;
 }
+
+
+#checkbox-id, form label{
+vertical-align:middle;	
+}
