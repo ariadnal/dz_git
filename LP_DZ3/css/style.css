@@ -58,9 +58,7 @@ line-height: 40px;
 text-align: center;
 }
 .top_menu a:hover{
-	border-left: 1px solid rgb(131,131,131);
-	border-right: 1px solid rgb(131,131,131);
-	background-color: rgb(60,60,60);
+	text-decoration:underline;
 }
 
 
