@@ -1,0 +1,411 @@
+html{
+background: white;
+}
+
+.wrapper{
+ /*background-color: red;*/
+  height: 1292px;
+  width: 909px;
+  margin: 0 auto;
+  margin-top:18px;
+}
+
+.avtoriz{
+  height:36px;
+  width:100%;
+
+}
+
+#logo{
+
+  height: 237px;
+  width:100%;
+}
+header>nav{
+  height: 41px;
+
+  width:100%;
+}
+
+.menu{
+  height:35px;
+  width:100%;
+  margin-top: 6px;
+  background-color: rgb(25,25,25);
+  position: relative;
+  border-radius: 5px;
+}
+ul#navig{
+  margin:0;
+  padding: 0;
+	margin-left: 130px;
+display: inline-block;
+list-style: none;
+width: 500px;
+
+
+}
+
+#navig li {
+	display: inline;
+	margin-right: -4px;
+}
+
+
+#navig a{
+	display: inline-block;
+
+font-size: 12px;
+padding: 0;
+
+background-color: rgb(25,25,25);
+text-decoration: none;
+font-family: 'Lucida Sans Unicode';
+font-size: 13.64px;
+color: #fff;
+height:25px;
+padding-left: 14px;
+padding-right: 14px;
+margin-top: 5px;
+line-height: 25px;
+text-align: center;
+color:rgb(138, 146, 150);
+}
+#navig a:hover{
+border-radius: 25px/25px;
+	background-color: rgb(24,84,118);
+}
+
+
+.menu img{
+  display: inline-block;
+  position: absolute;
+  right:205px;
+top:6px;
+}
+
+.abz1{
+  font-family: Arial;
+  font-size: 11px;
+  display: inline-block;
+  position: absolute;
+  bottom:1px;
+color:rgb(138, 146, 150);
+  right:142px;
+}
+
+.abz2{
+  font-family: Arial;
+  font-size: 11px;
+  display: inline-block;
+  position: absolute;
+  bottom:1px;
+color:rgb(138, 146, 150);
+  right:28px;
+}
+
+
+
+
+
+
+
+
+
+
+.searchdb{
+ background-color: green;
+  width:100%;
+  height: 135px;
+}
+
+.content{
+
+  width:909px;
+  padding-top:15px;
+  height: 627px;
+}
+
+.sidebar1{
+
+  float: left;
+  width: 191px;
+  height:627px;
+}
+
+.main{
+  float: left;
+  width:526px;
+  height:627px;
+  background: url('../img/tovari.png') 526px 627px;
+  border-radius: 0px 0px 2px 2px;
+
+
+}
+
+.sidebar2{
+
+  float: right;
+  height:627px;
+  width:192px;
+}
+
+.tyrelogos{
+  width:100%;
+ background-image: url('../img/tyres.png');
+ background-repeat: no-repeat;
+background-position: 117px 30px;
+  height:90px;
+}
+
+footer{
+ background-color:rgb(33,58,77);
+  width:100%;
+  height:100px;
+
+}
+footer>ul{
+  list-style: none;
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 0;
+  margin-left: 309px;
+  padding: 0;
+}
+footer ul li a{
+  text-decoration: none;
+  font-family: Arial ;
+  font-size: 12px;
+  display: inline-block;
+  color:rgb(190, 198, 201);
+}
+
+footer li a:hover{
+  color:rgb(82,171,203);
+}
+
+footer ul li{
+  display: inline-block;
+  margin-right: 7px;
+  color:rgb(190, 198, 201);
+}
+
+footer p{
+  color: rgb(127, 71, 64);
+  text-align: center;
+  font-family: Arial ;
+  font-size: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+.numbers{
+
+  height:100%;
+  width:314px;
+  display: inline-block;
+  position: relative;
+}
+
+.numbers img{
+  display: inline-block;
+  width:22px;
+  height:21px;
+  padding-bottom: 14px;
+  padding-left: 6px;
+
+}
+
+.numbers p{
+  display: inline-block;
+  font-family: Arial;
+  font-size: 18px;
+  position: absolute;
+  left:31px;
+  top:-20px;
+  letter-spacing: 0.025em;
+}
+
+.fform{
+  margin-left: -4px;
+
+  height:36px;
+  width:495px;
+  display: inline-block;
+
+  padding-top: 0;
+  position: relative;
+}
+
+.fform form{
+  position: absolute;
+  height:26px;
+  background-color: rgb(18, 68, 104);
+  background-image: url("../img/chelov.png");
+  background-repeat: no-repeat;
+  background-position: 7px;
+  padding-left: 25px;
+  width:470px;
+  border-radius: 4px;
+  box-shadow:  2px 3px rgba(0,0,0,0.1);
+  margin-top: -3px;
+}
+
+.fform form input,.fform form p{
+  margin:0;
+  padding:0;
+  display: inline-block;
+}
+
+.fform form input{
+  font-family: 'Lucida Sans Unicode';
+  display: inline-block;
+  font-size: 11px;
+  width:110px;
+  height: 15px;
+  padding-left: 2px;
+
+  margin-right: 3px;
+color:rgb(151, 162, 166);
+}
+.fform form p{
+  font-family: 'Lucida Sans Unicode';
+  display: inline-block;
+  font-size: 11px;
+color:rgb(191, 191, 191);
+}
+
+.icons{
+  display: inline-block;
+
+  height: 25px;
+  width:78px;
+  background-image: url("../img/navi.png");
+  background-repeat: no-repeat;
+  margin-bottom: 14px;
+  margin-left: 12px;
+
+}
+
+.main ul{margin: 0;padding: 0;}
+
+
+figure p{
+  margin: 0;
+  padding: 0;
+}
+figure{
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 0px;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+figcaption p{
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mark{
+  font-family: 'Lucida Sans Unicode';
+  font-size: 15px;
+  color: rgb(32 , 105, 136);
+}
+
+.umark{
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+}
+
+.price{
+  font-family:Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+color: rgb(17,65,101);
+}
+
+
+
+
+
+.catal{
+  margin-top: 2px;
+  height:24px;
+  width:154px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/save.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+  color: rgb(17 , 65, 101);
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+.shi{
+  margin-top: 11px;
+  height:23px;
+  width:122px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/save.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+  color: rgb(17 , 65, 101);
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+.dis{
+  margin-top: 2px;
+  height:23px;
+  width:122px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/save.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+  color: rgb(17 , 65, 101);
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+.bol{
+  margin-top: 2px;
+  height:23px;
+  width:122px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/save.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+  color: rgb(17 , 65, 101);
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+
+.sidebar1 ul{
+  list-style-type:circle;
+}
+
+.sidebar1 ul li, .sidebar2 ul li{
+  font-family: 'Lucida Sans Unicode';
+  font-size: 13px;
+  color: rgb(17 , 65, 101);
+}
