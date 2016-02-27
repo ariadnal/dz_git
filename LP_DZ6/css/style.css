@@ -32,6 +32,7 @@ header>nav{
   width:100%;
   margin-top: 6px;
   background-color: rgb(25,25,25);
+  background:linear-gradient(to top, rgb(25,25,25) 95%, #fff 100%);
   position: relative;
   border-radius: 5px;
 }
@@ -316,11 +317,14 @@ figcaption p{
   font-family: 'Lucida Sans Unicode';
   font-size: 15px;
   color: rgb(32 , 105, 136);
+  font-weight: 500;
+  line-height:15px;
 }
 
 .umark{
   font-family: 'Lucida Sans Unicode';
   font-size: 13px;
+  line-height: 13px;
 }
 
 .price{
@@ -329,6 +333,7 @@ figcaption p{
   font-style: italic;
   font-weight: bold;
 color: rgb(17,65,101);
+line-height:16px;
 }
 
 
@@ -337,75 +342,175 @@ color: rgb(17,65,101);
 
 .catal{
   margin-top: 2px;
-  height:24px;
+  
+  height:23px;
   width:154px;
   border:1px solid #000;
   border-radius: 15px;
   background-image: url('../img/save.png');
   background-repeat: no-repeat;
-  background-position: 2px 2px;
+  background-position: 2px 1px;
   font-family: 'Lucida Sans Unicode';
   font-size: 13px;
   color: rgb(17 , 65, 101);
   padding-left: 26px;
   padding-top: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
 }
 
-.shi{
-  margin-top: 11px;
-  height:23px;
-  width:122px;
+.catal2{
+  margin-top: 2px;
+  margin-left:9px;
+  height:24px;
+  width:151px;
   border:1px solid #000;
   border-radius: 15px;
   background-image: url('../img/save.png');
   background-repeat: no-repeat;
-  background-position: 2px 2px;
+  background-position: 2px 0px;
   font-family: 'Lucida Sans Unicode';
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(17 , 65, 101);
-  padding-left: 26px;
-  padding-top: 3px;
+  padding-left: 29px;
+  padding-top: 0px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
+}
+
+
+.shi{
+  margin-top:14px;
+  height:24px;
+  width:120px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-position: 4px 1px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 14px;
+  color: rgb(17 , 65, 101);
+  padding-left: 28px;
+  padding-top: 2px;
 }
 
 .dis{
-  margin-top: 2px;
-  height:23px;
-  width:122px;
+ margin-top:-14px;
+  height:24px;
+  width:120px;
   border:1px solid #000;
   border-radius: 15px;
-  background-image: url('../img/save.png');
+  background-image: url('../img/circle.png');
   background-repeat: no-repeat;
-  background-position: 2px 2px;
+  background-position: 4px 1px;
   font-family: 'Lucida Sans Unicode';
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(17 , 65, 101);
-  padding-left: 26px;
+  padding-left: 28px;
+  padding-top: 2px;
+  
+}
+
+
+
+.shi2{
+  margin-top: 13px;
+  margin-left:23px;
+  height:23px;
+  width:108px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-position: 4px 1px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 14px;
+  color: rgb(17 , 65, 101);
+  padding-left: 29px;
   padding-top: 3px;
 }
 
-.bol{
-  margin-top: 2px;
-  height:23px;
-  width:122px;
+.dis2{
+  margin-top: -4px;
+  margin-left:23px;
+  height:24px;
+  width:108px;
   border:1px solid #000;
   border-radius: 15px;
-  background-image: url('../img/save.png');
+  background-image: url('../img/circle.png');
   background-repeat: no-repeat;
-  background-position: 2px 2px;
+  background-position: 4px 1px;
   font-family: 'Lucida Sans Unicode';
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(17 , 65, 101);
-  padding-left: 26px;
-  padding-top: 3px;
+  padding-left: 28px;
+  padding-top: 2px;
+  
+}
+
+.bol{
+  margin-top: -15px;
+  height:24px;
+  width:120px;
+  border:1px solid #000;
+  border-radius: 15px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-position: 4px 1px;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 14px;
+  color: rgb(17 , 65, 101);
+  padding-left: 28px;
+  padding-top: 2px;
 }
 
 
 .sidebar1 ul{
   list-style-type:circle;
+  margin-top: 2px;
+  margin-left: 7px;
+}
+
+.sidebar2 ul{
+  list-style-type:none;
+  margin-top: 2px;
+  margin-left: -12px;
+}
+
+.idch, label{
+vertical-align: middle;
+}
+
+label{
+	padding-left: 10px;
 }
 
 .sidebar1 ul li, .sidebar2 ul li{
   font-family: 'Lucida Sans Unicode';
   font-size: 13px;
   color: rgb(17 , 65, 101);
+  padding-left:0px;
+  margin-bottom: 4px;
+}
+
+
+
+.sidebar1 ul li:hover{
+	text-decoration:underline;
+	font-weight:600;
+	font-style: italic;
+}
+
+button{
+	margin-left: 32px;
+	height:28px;
+	width:84px;
+	text-align: center;
+	 font-family: 'Lucida Sans Unicode';
+  font-size: 11px;
+  color:#fff;
+  border:none;
+  border-radius: 12px;
+  background:linear-gradient(to top, rgb(17 , 65, 101) 90%, #fff 100%);
+  letter-spacing: 0.05em;
+  box-shadow: 1px 1px 2px rgba(17 , 65, 101,0.5); 
 }
