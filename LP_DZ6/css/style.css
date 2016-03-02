@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'Lucida Sans Unicode'; /* Имя шрифта */
-   src: url(../fonts/Lucida Sans Unicode Regular.ttf); /* Путь к файлу со шрифтом */
+   src: url("../fonts/Lucida Sans Unicode Regular.ttf"); /* Путь к файлу со шрифтом */
   }
 
 html{
