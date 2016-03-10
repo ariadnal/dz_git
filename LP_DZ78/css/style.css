@@ -28,6 +28,9 @@ body{
   }
 }
 
+html,body{
+  overflow-x:hidden;
+}
 
 @font-face {
    font-family: 'League Gothic'; /* Имя шрифта */
