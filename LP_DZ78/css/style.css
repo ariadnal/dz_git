@@ -6,27 +6,9 @@
 body{
   min-width: 320px;
   max-width: 2000px;
-  height:2306px;
-}
-
-@media(max-width:768px){
-  body{
-    height:2346px;
-  }
-}
-
-@media(max-width:480px){
-  body{
-    height:3036px;
-  }
 }
 
 
-@media(max-width:320px){
-  body{
-    height:2525px;
-  }
-}
 
 html,body{
   overflow-x:hidden;
