@@ -9,6 +9,7 @@
 body{
   min-width: 320px;
   max-width: 2000px;
+<<<<<<< HEAD
   /*height:2306px;*/
 
 }
@@ -22,6 +23,16 @@ html{
 
 /*html,body { overflow-x: hidden; }*/
 
+=======
+}
+
+
+
+html,body{
+  overflow-x:hidden;
+}
+
+>>>>>>> origin/master
 @font-face {
    font-family: 'League Gothic'; /* Имя шрифта */
    src: url(../fonts/LeagueGothic-Regular.ttf); /* Путь к файлу со шрифтом */
