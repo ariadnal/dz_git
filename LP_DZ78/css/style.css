@@ -22,14 +22,26 @@ html{
 
 /*html,body { overflow-x: hidden; }*/
 
-@font-face {
-   font-family: 'League Gothic'; /* Имя шрифта */
-   src: url(../fonts/LeagueGothic-Regular.ttf); /* Путь к файлу со шрифтом */
-  }
+
+
+
+
+
+  @font-face {
+    font-family: 'League Gothic';
+    src: url("../fonts/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 @font-face {
     font-family: 'Open Sans Light'; /* Имя шрифта */
-    src: url(../fonts/OpenSans-Light.ttf); /* Путь к файлу со шрифтом */
+      src: url("../fonts/OpenSans-Light.eot?#iefix")format("embedded-opentype"), /* Путь к файлу со шрифтом */
+      url("../fonts/OpenSans-Light.ttf"); /* Путь к файлу со шрифтом */
+
   }
 
 header{
