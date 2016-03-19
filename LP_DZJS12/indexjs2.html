@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+var userName;
+var names=[];
+for(var i=0; i<5; i++){
+  names[i]=prompt("Введите фамилию №" + (i+1));
+}
+userName=prompt("Введите имя пользователя:");
+var flag=false;
+for(var i=0; i<names.length; i++){
+  if(names[i]==userName)
+  {
+    flag=true;
+  }
+}
+if(flag){
+  alert(userName + ", вы успешно вошли");
+}
+else{
+  alert("Ошибка, нет совпадений!");
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

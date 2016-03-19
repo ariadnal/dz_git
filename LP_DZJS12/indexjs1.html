@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+
+
+var base = prompt("Введите основание: ");
+base=+base;
+var exponent = prompt("Введите показатель: ");
+exponent=+exponent;
+var myPow = function(a,b) {
+  var result=0;
+  if(b==0)
+  {
+    if(a==0)
+      result=1;
+    else {
+      result=1;
+    }
+  }
+
+  if(b>0)
+  {
+    result=a;
+    for(var i = 0; i < b-1; i++)
+    {
+      result=result*a;
+    }
+  }
+
+  if(b<0)
+  {
+    result=1/a;
+    for(var i = b+1; i < 0; i++)
+    {
+      result=result*(1/a);
+    }
+  }
+
+
+
+  return result;
+}
+alert(myPow(base,exponent));
+  console.log(myPow(base,exponent));
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
