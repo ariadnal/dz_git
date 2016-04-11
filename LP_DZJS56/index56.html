@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style>
+.numbers{
+  height:120px;
+  width:500px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: rgb(200,200,250);
+}
+.formsw{
+  width:500px;
+  margin: 0 auto;
+}
+
+.tonull{
+  color:black;
+font-weight:bold;
+font-size:40px;
+  float: right;
+  height: 75px;
+  width:240px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color:rgb(150,20,20);
+}
+.tonull:hover{
+  background-color:rgb(200,20,20);
+}
+
+
+.startpause{
+  color:black;
+  font-size:40px;
+  font-weight: bold;
+  height: 75px;
+  width:240px;
+  float: left;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color:rgb(0,100,0);
+}
+.startpause:hover{
+  background-color:rgb(0,150,0);
+}
+</style>
+
+  <title>Document</title>
+</head>
+<body>
+  <script src="javascript/test.js"></script>
+<form name=TestForm class="formsw">
+	<input name=stopwatch size=10 value="00:00:00.00" class="numbers">
+  <input type=button value="Start/Pause" onclick="pause()" class="startpause">
+  <input type=button value="Clear" onclick="clearСlock()" class="tonull">
+
+</form>
+</body>
+</html>
