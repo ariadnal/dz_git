@@ -1,0 +1,36 @@
+
+label {
+  display: inline-block; width: 5em;
+}
+fieldset div {
+  margin-bottom: 2em;
+    margin-top:20px;
+}
+fieldset .help {
+  display: inline-block;
+
+}
+.wrapper{
+margin:0 auto;
+width:600px;
+}
+
+
+
+.fn,.ln,.ad{
+ position:absolute;
+ z-index:999;
+ left:-9999px;
+
+ padding:5px;
+ border:1px solid #aaa;
+ border-radius:8px;
+ width:250px;
+}
+
+.fn p,.ln p,.ad p{
+ margin:0;
+ color:#333;
+ background-color:#fff;
+ padding:2px 7px;
+}
